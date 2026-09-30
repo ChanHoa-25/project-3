@@ -2,5 +2,9 @@
 * {
   font-family: "Lexend", sans-serif;
 }
+select,
+input {
+  outline: none;
+}
 /* Header */
 /*End  Header */
