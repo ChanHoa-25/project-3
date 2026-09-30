@@ -9,12 +9,73 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
       integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+      referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <!-- Header -->
+    <header class="bg-[#000071] py-[15px]">
+      <div class="container mx-auto px-[16px]">
+        <!-- Wrap -->
+        <div class="flex justify-between items-center">
+          <!-- Logo -->
+          <a href="#" class="text-[#fff] font--[800] sm:text-[28px] text-[20px] lg:flex-none flex-1"> 28.ITJobs </a>
+          <!-- Menu -->
+          <nav class="lg:block hidden">
+            <ul class="flex gap-x-[30px]">
+              <li class="inline-flex items-center gap-x-[8px] relative group/sub-1">
+                <a href="#" class="text-[#fff] text-[16px] font-[800] group:hover"> Việc làm ITa</a>
+                <i class="fa-solid fa-angle-down text-[#fff] text-[16px]"></i>
+                <ul class="absolute top-[100%] left-[0] w-[280px] bg-[#000065] hidden group-hover/sub-1:block">
+                  <li
+                    class="py-[10px] px-[16px] rounded-[4px] flex items-center justify-between hover:bg-[#000096] relative group/sub-2">
+                    <a href="" class="text-[#fff] text-[16px] font-[600]">Việc làm IT theo kỹ năng</a>
+                    <i class="fa-solid fa-angle-right text-[#fff] text-[16px]"></i>
+                    <ul class="absolute top-[0] left-[100%] w-[280px] bg-[#000065] hidden group-hover/sub-2:block">
+                      <li
+                        class="py-[10px] px-[16px] rounded-[4px] flex items-center justify-between hover:bg-[#000096]">
+                        <a href="" class="text-[#fff] text-[16px] font-[600]">ReactJS</a>
+                      </li>
+                      <li
+                        class="py-[10px] px-[16px] rounded-[4px] flex items-center justify-between hover:bg-[#000096]">
+                        <a href="" class="text-[#fff] text-[16px] font-[600]">NodeJS</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="py-[10px] px-[16px] rounded-[4px] flex items-center justify-between hover:bg-[#000096]">
+                    <a href="" class="text-[#fff] text-[16px] font-[600]">Việc làm IT theo công ty</a>
+                    <i class="fa-solid fa-angle-right text-[#fff] text-[16px]"></i>
+                  </li>
+                  <li class="py-[10px] px-[16px] rounded-[4px] flex items-center justify-between hover:bg-[#000096]">
+                    <a href="" class="text-[#fff] text-[16px] font-[600]">Việc làm IT theo thành phố</a>
+                    <i class="fa-solid fa-angle-right text-[#fff] text-[16px]"></i>
+                  </li>
+                </ul>
+              </li>
+              <li class="">
+                <a href="#" class="text-[#fff] text-[16px] font-[800]"> Top Công Ty IT</a>
+                <i class="fa-solid fa-angle-down text-[#fff] text-[16px]"></i>
+              </li>
+              <li class="">
+                <a href="#" class="text-[#fff] text-[16px] font-[800]"> Nhà Tuyển Dụng</a>
+                <i class="fa-solid fa-angle-down text-[#fff] text-[16px]"></i>
+              </li>
+            </ul>
+          </nav>
+          <!-- Account -->
+          <div class="ineline-flex items-center gap-x-[5px] text-[#fff] font-[600] sm:text-[16px] text-[12px]">
+            <a href="#" class="">Đăng nhập</a>
+            <span class="">/</span>
+            <a href="#" class="">Đăng ký</a>
+          </div>
+          <!-- Button Menu Mobile -->
+          <button class="">
+            <i class="fa-solid fa-bars text-[#fff] text-[20px] ml-[12px] lg:hidden inline-block"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
   </body>
 </html>
