@@ -3,7 +3,8 @@
   font-family: "Lexend", sans-serif;
 }
 select,
-input {
+input,
+textarea {
   outline: none;
 }
 /* Header */
